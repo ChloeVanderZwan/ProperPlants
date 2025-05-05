@@ -1,79 +1,92 @@
-const PLANTS = [
+export const plants = [
   {
     id: 1,
-    image: "🌿",
-    name: "Fern",
+    name: "Monstera Deliciosa",
+    emoji: "🌿",
+    price: 25.99
   },
   {
     id: 2,
-    image: "🌵",
-    name: "Cactus",
+    name: "Snake Plant",
+    emoji: "🌱",
+    price: 19.99
   },
   {
     id: 3,
-    image: "🌻",
-    name: "Sunflower",
+    name: "Fiddle Leaf Fig",
+    emoji: "🌳",
+    price: 35.99
   },
   {
     id: 4,
-    image: "🍀",
-    name: "Clover",
+    name: "Peace Lily",
+    emoji: "🌸",
+    price: 22.99
   },
   {
     id: 5,
-    image: "🌺",
-    name: "Hibiscus",
+    name: "Cactus",
+    emoji: "🌵",
+    price: 15.99
   },
   {
     id: 6,
-    image: "🌱",
-    name: "Sprout",
+    name: "Fern",
+    emoji: "🌿",
+    price: 18.99
   },
   {
     id: 7,
-    image: "🎍",
-    name: "Bamboo",
+    name: "Sunflower",
+    emoji: "🌻",
+    price: 12.99
   },
   {
     id: 8,
-    image: "🌾",
-    name: "Wheat",
+    name: "Bamboo",
+    emoji: "🎍",
+    price: 24.99
   },
   {
     id: 9,
-    image: "🌷",
     name: "Tulip",
+    emoji: "🌷",
+    price: 14.99
   },
   {
     id: 10,
-    image: "🌳",
-    name: "Oak Tree",
+    name: "Palm Tree",
+    emoji: "🌴",
+    price: 45.99
   },
   {
     id: 11,
-    image: "🌴",
-    name: "Palm Tree",
+    name: "Mushroom",
+    emoji: "🍄",
+    price: 16.99
   },
   {
     id: 12,
-    image: "🍄",
-    name: "Mushroom",
+    name: "Rose",
+    emoji: "🌹",
+    price: 19.99
   },
   {
     id: 13,
-    image: "🌹",
-    name: "Rose",
+    name: "Potted Plant",
+    emoji: "🪴",
+    price: 22.99
   },
   {
     id: 14,
-    image: "🥀",
-    name: "Wilted Rose",
+    name: "Lavender",
+    emoji: "💐",
+    price: 17.99
   },
   {
     id: 15,
-    image: "🪴",
-    name: "Potted Plant",
-  },
+    name: "Aloe Vera",
+    emoji: "🌱",
+    price: 21.99
+  }
 ];
-
-export default PLANTS;
